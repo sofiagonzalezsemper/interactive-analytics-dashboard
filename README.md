@@ -1,5 +1,7 @@
 # Supplier Risk Evaluation Dashboard
 
+LINK: https://score-wise-pro.lovable.app
+
 Interactive dashboard developed to evaluate supplier risk through structured financial and operational indicators uploaded via Excel templates.
 
 The platform allows users to upload standardized datasets, automatically calculate supplier risk scores, identify critical vendors, and visualize key risk metrics through an intuitive dashboard.
