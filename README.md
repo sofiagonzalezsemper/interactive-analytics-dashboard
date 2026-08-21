@@ -1,61 +1,66 @@
 # Supplier Risk Evaluation Dashboard
 
-LINK: https://score-wise-pro.lovable.app
+Prototipo interactivo para transformar información operativa y financiera de proveedores en indicadores de riesgo accionables.
 
-Interactive dashboard developed to evaluate supplier risk through structured financial and operational indicators uploaded via Excel templates.
+[**Abrir demo**](https://score-wise-pro.lovable.app)
 
-The platform allows users to upload standardized datasets, automatically calculate supplier risk scores, identify critical vendors, and visualize key risk metrics through an intuitive dashboard.
+## Problema de negocio
 
-## Business Objective
+La evaluación manual de proveedores dificulta comparar riesgos, priorizar casos críticos y mantener un criterio consistente. Este prototipo centraliza la carga de información mediante una plantilla Excel y la convierte en scores, categorías y alertas visuales.
 
-The objective of the project was to improve supplier monitoring and risk visibility by transforming manually uploaded operational and financial information into actionable risk indicators and dashboards.
+## Funcionalidades
 
-## Features
+- Carga de una plantilla Excel estandarizada.
+- Cálculo de scores de riesgo.
+- Clasificación Low / Medium / High.
+- KPIs y ranking de proveedores.
+- Identificación de proveedores críticos.
+- Visualización de indicadores operativos y financieros.
 
-- Excel template upload
-- Automated supplier risk scoring
-- Risk categorization (Low / Medium / High)
-- KPI monitoring
-- Top supplier ranking
-- Critical supplier alerts
-- Interactive dashboard visualization
+## Flujo
 
-## Tools & Technologies
+`Plantilla Excel → validación de datos → cálculo de indicadores → score de riesgo → dashboard y alertas`
 
-- React
-- Data Visualization
-- Excel Integration
-- Dashboard Design
-- Business Analytics
-- Risk Analysis
+## Enfoque y herramientas
 
-## Key Insights
+`Business Analytics` · `Supplier Risk` · `Excel` · `Data Visualization` · `Dashboard Design`
 
-- Centralized supplier risk visibility improves prioritization of critical vendors.
-- Automated scoring reduces manual evaluation effort and increases consistency.
-- Interactive dashboards facilitate faster identification of operational and financial risks.
+La interfaz fue desarrollada como prototipo desplegado con Lovable. Este repositorio documenta el caso de uso y contiene la plantilla de entrada; el código fuente de la aplicación no está incluido actualmente.
 
-## Main Dashboard
+## Contenido del repositorio
 
-<img width="954" height="857" alt="Captura de pantalla 2026-05-09 120733" src="https://github.com/user-attachments/assets/bb9e5ca3-36d3-4ad2-a4f7-1c5682ad2cb1" />
+- [Plantilla de proveedores](./plantilla_proveedores.xlsx)
+- Documentación funcional en este README.
+- Demo desplegada en el enlace superior.
 
-## Tabla de datos
+## Vista previa
 
-<img width="969" height="880" alt="Captura de pantalla 2026-05-09 121035" src="https://github.com/user-attachments/assets/641f076d-83b4-41d0-b3bc-df054fbb69c0" />
+### Dashboard principal
 
-## Carga de datos
+![Dashboard principal](https://github.com/user-attachments/assets/bb9e5ca3-36d3-4ad2-a4f7-1c5682ad2cb1)
 
-<img width="1024" height="756" alt="Captura de pantalla 2026-05-09 121044" src="https://github.com/user-attachments/assets/03347d85-7c9a-442f-93ce-2411995bb3d0" />
+### Tabla de datos
 
-## Tabla de cotizaciones
+![Tabla de datos](https://github.com/user-attachments/assets/641f076d-83b4-41d0-b3bc-df054fbb69c0)
 
-<img width="858" height="895" alt="Captura de pantalla 2026-05-09 121051" src="https://github.com/user-attachments/assets/89477c62-4e6a-487a-8d33-c983410ff16f" />
+### Carga mediante Excel
 
-## Settings
+![Carga de datos](https://github.com/user-attachments/assets/03347d85-7c9a-442f-93ce-2411995bb3d0)
 
-<img width="839" height="803" alt="Captura de pantalla 2026-05-09 121102" src="https://github.com/user-attachments/assets/c511abac-02ff-488f-8c3e-a0ce945b6128" />
-<img width="823" height="368" alt="Captura de pantalla 2026-05-09 121105" src="https://github.com/user-attachments/assets/01f9f518-5758-4521-acb3-9c4591abdefa" />
+## Valor para el negocio
 
+- Estandariza el criterio de evaluación.
+- Reduce trabajo manual.
+- Facilita la priorización de proveedores críticos.
+- Mejora la trazabilidad de decisiones de seguimiento.
 
+## Limitaciones y próximos pasos
 
+- Los pesos y umbrales deben validarse con datos históricos antes de utilizarse para decisiones reales.
+- La plantilla requiere controles adicionales de calidad y campos obligatorios.
+- Una versión productiva debería incluir autenticación, persistencia, auditoría y monitoreo.
+- Como mejora futura se publicará la lógica del score o una especificación técnica completa.
 
+## Autora
+
+**Sofía González Semper** — experiencia en supply chain, operaciones, análisis de datos y mejora de procesos.
